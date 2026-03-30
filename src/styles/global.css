@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #0d0101;
+  --text-primary: #ffffff;
+  --text-secondary: #ffb3b3;
+  --nav-bg: rgba(13, 1, 1, 0.6);
+  --focus-border: #FFD700;
+  --focus-shadow: rgba(255, 215, 0, 0.4);
+  --primary-btn: #FF0000;
+  --primary-btn-text: #ffffff;
+  --secondary-btn: rgba(255, 0, 0, 0.2);
+  --card-bg: #1a0303;
+  --spacing-side: 6vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  outline: none;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
